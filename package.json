@@ -1,0 +1,23 @@
+{
+  "name": "livecall_node_server",
+  "version": "1.0.0",
+  "description": "node server to run video call react app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrsavaliya/livecall_node_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrsavaliya/livecall_node_server/issues"
+  },
+  "homepage": "https://github.com/hrsavaliya/livecall_node_server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
