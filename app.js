@@ -10,6 +10,8 @@ app.use(express.static(__dirname + '/build'))
 app.get('/', (req, res, next) => {
     res.sendFile(__dirname + '/build/index.html')
 })
+
+
 const server = http.createServer(app)
 const peers = io(server)
 // https://www.tutorialspoint.com/socket.io/socket.io_namespaces.htm
